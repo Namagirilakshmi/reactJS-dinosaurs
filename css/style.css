@@ -1,0 +1,48 @@
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.menu li a{
+	display: block;
+	font-weight: bold;
+}
+.sname{
+	height: 45px;
+}
+.container{
+	background: url("../../images/dinobg.jpg") no-repeat fixed ;
+	background-size:cover;
+}
+.btn{
+	background-color: unset;
+}
+#listdata h4,h5{
+	color: #fff ;
+	font-weight: bold;
+}
+.row h3{
+	font-weight: bold;
+}
+.row p{
+	color: #fff;
+}
+#back{
+	background-color:  #0288d1 ;
+	vertical-align: bottom;
+}
+.sname{
+	position: relative;
+}
+.sname:hover{
+	background-color: #0288d1 ;
+}
+.sname:after{
+	content: ">";
+	position: absolute;
+	right: 10px;
+}
+.active{
+	background:#0288d1;
+}
